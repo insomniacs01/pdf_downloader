@@ -1,0 +1,39 @@
+# 增强版PDF下载器依赖包
+# 核心依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+weasyprint>=60.0
+Pillow>=10.0.0
+chardet>=5.2.0
+cssutils>=2.7.0
+
+# 字体和国际化支持
+fonttools>=4.40.0
+brotli>=1.0.9
+
+# 可选增强功能
+lxml>=4.9.0              # 更快的XML/HTML解析
+html5lib>=1.1            # HTML5标准解析
+tinycss2>=1.2.0          # CSS解析增强
+pyphen>=0.14.0           # 连字符处理
+
+# 图像处理增强
+opencv-python>=4.8.0     # 高级图像处理（可选）
+numpy>=1.24.0            # 数值计算支持
+
+# 性能优化
+cachetools>=5.3.0        # 缓存管理
+psutil>=5.9.0            # 系统资源监控
+
+# 网络增强
+urllib3>=1.26.0
+certifi>=2023.7.22
+
+# PDF处理增强（可选）
+PyPDF4>=3.0.0            # PDF文件操作
+reportlab>=4.0.0         # PDF生成增强
+
+# 开发和调试工具（可选）
+tqdm>=4.65.0             # 进度条
+colorama>=0.4.6          # 彩色输出
+rich>=13.0.0             # 富文本终端输出

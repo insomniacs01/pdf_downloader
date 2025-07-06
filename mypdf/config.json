@@ -1,0 +1,13 @@
+{
+  "save_path": "D:\\333\\mypdf\\downloads",
+  "wait_time": 3,
+  "page_size": "A4",
+  "landscape": false,
+  "scale": 1.0,
+  "print_background": true,
+  "block_images": false,
+  "remove_popups": true,
+  "full_load": true,
+  "scroll_pause": 2,
+  "max_scroll_time": 60
+}
